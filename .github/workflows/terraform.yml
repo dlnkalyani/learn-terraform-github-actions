@@ -52,6 +52,8 @@ jobs:
             #### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
             #### Terraform Validation 🤖\`${{ steps.validate.outcome }}\`
             #### Terraform Plan 📖\`${{ steps.plan.outcome }}\`
+            #### github.ref 📖\`${{ github.ref }}\`
+            #### github.event_name   📖\`${{ github.event_name  }}\`
 
             <details><summary>Show Plan</summary>
 
